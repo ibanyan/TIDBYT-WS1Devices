@@ -37,12 +37,12 @@ Send the app to your TIDBYT.
 - Open Terminal and change to the folder where your saved the edited file WSONEDevices.star
 - Type: pixlet render WSONEDevices.star
 - A new file called WSONEDevices.wepb should appear in the folder.
-- Type: pixlet push --installation-id WSONEDevices --api-token <your TIDBYT API token> "<your TIDBYT Device ID>" WSONEDevices.webp
+- Type: pixlet push --installation-id WSONEDevices --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevices.webp
 
 Pushing the app to your TIDBYT one time will display the information frozen in time.  It will never update.
 To get it to update, you'll need to write a short script to render the app and push it to your TIDBYT on a schedule, say once an hour.
 Your script will need to execute these to lines repeatedly:
 pixlet render WSONEDevices.star
-pixlet push --installation-id WSONEDevices --api-token <your TIDBYT API token> "<your TIDBYT Device ID>" WSONEDevices.webp
+pixlet push --installation-id WSONEDevices --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevices.webp
 
 Once this app makes it to the TIDBYT public app store, you'll be able to simply install it and it will update on its own.
