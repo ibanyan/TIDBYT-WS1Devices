@@ -42,7 +42,7 @@ Send the app to your TIDBYT.
 Pushing the app to your TIDBYT one time will display the information frozen in time.  It will never update.
 To get it to update, you'll need to write a short script to render the app and push it to your TIDBYT on a schedule, say once an hour.
 Your script will need to execute these to lines repeatedly:
-pixlet render WSONEDevices.star
-pixlet push --installation-id WSONEDevices --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevices.webp
+- pixlet render WSONEDevices.star
+- pixlet push --installation-id WSONEDevices --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevices.webp
 
 Once this app makes it to the TIDBYT public app store, you'll be able to simply install it and it will update on its own.
