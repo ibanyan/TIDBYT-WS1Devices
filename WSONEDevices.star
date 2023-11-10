@@ -124,22 +124,22 @@ def main():
                         ],
                     ),
                     render.Text(
-                        content = "Total:      %s" % humanize.ftoa(totaldevices,0),
+                        content = "Total:     %s" % humanize.ftoa(totaldevices,0),
                         height = 5,
                         font = FONT,
                     ),
                     render.Text(
-                        content = "Pending:    %s" % humanize.ftoa(totalenrollp,0),
+                        content = "Pending:   %s" % humanize.ftoa(totalenrollp,0),
                         height = 6,
                         font = FONT,
                     ),
                     render.Text(
-                        content = "Enrolled:   %s" % humanize.ftoa(totalenrolled,0),
+                        content = "Enrolled:  %s" % humanize.ftoa(totalenrolled,0),
                         height = 6,
                         font = FONT,
                     ),
                     render.Text(
-                        content = "Unenrolled: %s" % humanize.ftoa(totalunenrolled,0),
+                        content = "Unenrolled:%s" % humanize.ftoa(totalunenrolled,0),
                         height = 6,
                         font = FONT,
                     ),
