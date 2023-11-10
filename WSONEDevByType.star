@@ -31,7 +31,7 @@ autho = ""
 tenanturl = ""
 
 #The actual API query.  Don't change this.
-query = "/API/system/groups/devicecounts?organizationgroupid="
+query = "/API/mdm/devices/devicecountinfo?organizationgroupid="
 
 #we use this call just to get the Root OG name.
 rootogquery = "/API/system/groups/devicecounts?organizationgroupid="
