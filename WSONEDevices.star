@@ -70,10 +70,10 @@ def main():
         
     totalog = rep.json()["Total"]
     rootog = rep.json()["LocationGroups"][0]["LocationGroupName"]
-    totaldevices = 0
-    totalunenrolled = 0
-    totalenrolled = 0
-    totalenrollp = 0
+    totaldevices = 0.0
+    totalunenrolled = 0.0
+    totalenrolled = 0.0
+    totalenrollp = 0.0
     
     for i in range(int(totalog)):
         if (rep.json()["LocationGroups"][i].get("TotalDevices")) == None:
