@@ -16,6 +16,7 @@ You will need PIXLET. You can get it here: https://tidbyt.dev/docs/build/install
 PIXLET will be used to compile (or as it is called render) the app, and send it to your TIDBYT.
 
 Prep:
+
 Get your TIDBYT's device ID and API key.
 - Open the TIDBYT app on your phone, tap the cog icon, and tap General.
 - Tap Get API key
@@ -38,7 +39,8 @@ One-time Setup.
 - Edit the app file you want to use (WSONEDevices.star and/or WSONEDevByType.star) and paste in the required info from your tenant.
 - Save the file.
 
-Send the apps to your TIDBYT.
+Send the apps to your TIDBYT:
+
 - Open Terminal (macOS and Linux) or Command Line (Windows) and change to the folder where your saved the edited files (WSONEDevices.star and/or WSONEDevByType.star)
 - Type: pixlet render NameOfApp.star
 - e.g. pixlet render WSONEDevices.star
