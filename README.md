@@ -2,7 +2,7 @@
 View your Workspace ONE UEM information on your Tidbyt.
 
 
-If you own a TIDBYT you will be able to install this app.  Feel free to fork this off and make new apps targeting Workspace ONE UEM.
+If you own a TIDBYT you will be able to install these apps.  Feel free to fork them off and make new apps targeting Workspace ONE UEM.
 Hopefully you will find these apps, their embeded comments, and instructions useful enough to create your own apps.  If you do, or you just have some feedback, please email me at ibanyan@gmail.com
 
 I plan to submit these apps to TIDBYT so that it is available in their app store.  The versions here is exactly the same, just without the part that integrates ith the TIDBYT mobile app.
