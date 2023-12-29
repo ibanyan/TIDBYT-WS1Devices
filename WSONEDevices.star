@@ -10,7 +10,7 @@ load("humanize.star", "humanize")
 load("encoding/base64.star", "base64")
 
 #Set the fonts
-FONT = "CG-pixel-3x5-mono"
+FONT = "tom-thumb"
 HFONT = "5x8"
 
 #Define the items that make up the query to the WS1 tenant.
@@ -119,13 +119,13 @@ def main():
                             render.Image(src=WSICON),
                             render.Marquee(
                              width=64,
-                             child=render.Text("%s" % rootog,font = HFONT,color = "#00a"),
+                             child=render.Text("%s" % rootog,font = HFONT,color = "#1270cd"),
                             ),
                         ],
                     ),
                     render.Text(
                         content = "Total:     %s" % humanize.ftoa(totaldevices,0),
-                        height = 5,
+                        height = 6,
                         font = FONT,
                     ),
                     render.Text(
