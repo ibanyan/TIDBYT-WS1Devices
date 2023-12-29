@@ -26,8 +26,7 @@ Get your Workspace ONE UEM API user credentials and the tenant code
 - The tenant code is the AirWatchAPI Key in the REST API screen.
 - The API admin user's credentials. You may need to create a new admin user with at least the API role unless you have one already created.
 - Today this app only supports Basic authentication.
-- Basic username and password already converted to Base64. This site can help. https://mixedanalytics.com/tools/basic-authentication-generator/
--   Remember to add the word Basic and a space before your base64 text.  For example "Basic U1dvem5pYWs6VGhlV296IQ=="
+- Basic username and password in plain text.  The code will convert it to Base64.
 
 Your tenant's API URL.
 - This is your tenant URL but changing cn to as.
