@@ -22,9 +22,12 @@ og = ""
 #AirWatchAPI Key in the REST API screen.
 tenantcode = ""
 
-#Set the API user's username and password.  Today this app only supports Basic authentication.
-#Basic username and password already converted to Base64 (Postman can help with this).
-autho = ""
+#Set the API admin user's username and password.  Today this app only supports Basic authentication.
+#It will be encoded into Base64 for you.
+adminuser = ""
+adminpassword = ""
+authotmp = base64.encode(adminuser + ":" + adminpassword)
+autho = "Basic " + authotmp
 
 #Set your tenant's API url.
 #This is your tenant URL but changing cn to as.
