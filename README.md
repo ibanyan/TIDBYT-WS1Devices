@@ -61,4 +61,4 @@ Your script will need to execute these to lines repeatedly:
 - pixlet push --installation-id WSONEDevices --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevices.webp
 - pixlet push --installation-id WSONEDevByType --api-token your_TIDBYT_API_token "your_TIDBYT_Device_ID" WSONEDevByType.webp
 
-Once these apps makes it to the TIDBYT public app store, you'll be able to simply install them and they will update on their own.
+
